@@ -1,0 +1,24 @@
+{
+  "name": "castos-api",
+  "version": "1.0.0",
+  "description": "Backend API to listen to Podcasts on your Sonos System",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sonos",
+    "api"
+  ],
+  "author": "Jared Perreault <jared_perreault@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
